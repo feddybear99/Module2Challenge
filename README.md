@@ -21,7 +21,7 @@ Honestly, if Steve’s parents want to invest in stock, they should choose the t
 **Summary**
 
 *Advantages of refactoring code:*
-The acronym DRY: Don't Repeat Yourself is important to follow because it reduces reusing a piece of code over and over again. I noticed when there were multiple places where I needed to make the same edit, and that’s where it led to redundancy and where I needed to correct each fix —which resulted in several troubleshooting problems.
+The acronym DRY: Don't Repeat Yourself is important to follow because it reduces reusing a piece of code over and over again. I noticed when there were multiple places where I needed to make the same edit, and that’s where it led to redundancy and where I needed to correct each fix —which resulted in several troubleshooting problems. When refactoring code, it was helpful to minimize the redundant loops and concatenate instead. 
 
 *Disadvantages of refactoring code:*
 It can be very hard to work off of a previously built module (in Excel) because of the way VBA is set up. I had to re-do quite a few Modules within VBA so that the code would eventually work just right. I found that it was hard to rearrange and fix dimmensions for the code when trying to run a for loop and an array. 
